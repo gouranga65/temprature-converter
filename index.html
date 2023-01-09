@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="main">
       <div class="inner-box">
         <div class="text">enter value</div>
-        <span class="number"><input type="number" name="" id="" /></span>
+        <span class="number"><input type="number" name="" id="number" /></span>
         <select name="temp-diff" id="temp-diff">
-          <option value="celcious">celcious</option>
+          <option value="celcious" class="celcious">celcious</option>
           <option value="farenhight">farenhight</option>
         </select>
-        <div class="submit"><input type="submit" value="submit"></div>  
+        <div class="submit"><input type="submit" value="submit" id="submit"></div>  
         <div class="result"></div>    
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

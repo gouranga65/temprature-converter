@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.inner-box {
+  background-color: rgb(245, 246, 134);
+  width: 45vw;
+  margin-left: 20em;
+  height: 14em;
+  margin-top: 12.5em;
+  font-family: "Pacifico", cursive;
+}
+.text {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+.number {
+  margin-left: 6em;
+}
+.submit {
+  margin-left: 16.5em;
+  margin-top: 2em;
+}
+select {
+  margin-left: 39px;
+}
+.result{
+    text-align: center;
+    width: 300px;
+    margin: 10px 0px 0px 8em;
+}
